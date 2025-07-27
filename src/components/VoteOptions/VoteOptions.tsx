@@ -15,5 +15,4 @@ export default function VoteOptions(props:VoteOptionsProps) {
   <button className={css.button} onClick={() => onVote('bad')}>Bad</button>
   {canReset && <button className={`${css.button} ${css.reset}`} onClick={onReset}>Reset</button>}
 </div>
-
 }
