@@ -45,6 +45,7 @@ function App() {
     positiveRate={positiveRate}
     /> : <Notification/>}
   </div>
+
 }
 
 export default App
