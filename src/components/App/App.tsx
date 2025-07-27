@@ -8,7 +8,7 @@ import css from './App.module.css'
 
 
 
-export default function App() {
+function App() {
   const [votes, setVotes] = useState<Votes>({
     good: 0,
     neutral: 0,
@@ -45,3 +45,5 @@ export default function App() {
     /> : <Notification/>}
   </div>
 }
+
+export default App;
